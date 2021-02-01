@@ -4,6 +4,6 @@ def nthLetter(w, n):
         return False
 
     else:
-        return w[n]
+        return w[n -1]
 
 print (nthLetter("car", 2))
